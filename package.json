@@ -1,11 +1,11 @@
 {
   "name": "tailwind-material-3",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": " Alpha version ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss build ./src/styles.css -o ./example/output.css"
+    "build": "npx tailwindcss build ./src/styles.css -o ./dist/output.css"
   },
   "repository": {
     "type": "git",
