@@ -1,11 +1,11 @@
 {
   "name": "tailwind-material-3",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": " Alpha version ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npx tailwindcss build ./src/styles.css -o ./example/output.css"
+    "build": "npx tailwindcss build ./src/styles.css -o ./example/output.css"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/rinturaj/tailwind-material-3#readme",
   "dependencies": {
     "@tailwindcss/cli": "^0.1.2",
-    "deepmerge": "^4.2.2",
-    "tailwindcss": "^3.3.1"
+    "deepmerge": "^4.2.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }

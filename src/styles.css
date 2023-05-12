@@ -3,3 +3,7 @@
 @import 'tailwindcss/utilities';
 
 /* add your own custom CSS styles here */
+
+.test{
+    background-color: brown !important;
+}

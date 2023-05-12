@@ -4,7 +4,7 @@ import useMD3 from "./index.js";
 
 
 export default useMD3({
-  content: [],
+  content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {},
   },

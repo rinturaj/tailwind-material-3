@@ -1,6 +1,6 @@
 
-import themeConfig from './src/theme/theme.js';
-import deepmerge from 'deepmerge';
+const themeConfig  = require( './src/theme/theme.js')
+const deepmerge  = require ('deepmerge');
 
 const materialTailwindConfig = {
     content: [],
