@@ -4,30 +4,39 @@ const materialTailwindConfig = {
   content: ["./src/**/*.{html,js,css}"],
   theme: {
     colors: {
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+    
+      primary:'#6750A4',
+      secondary:'#958DA5',
+      tertiary:'#B58392',
+      neutral:'#939094',
+      danger:'#B3261E',
+      success:'#21b31e',
+      warning:'#f1d26d',
+
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      roboto: ['Roboto', 'serif'],
     },
     extend: {
+    
       spacing: {
-        '8xl': '96rem',
-        '9xl': '128rem',
-        'rin': '4rem'
-
+        'none': '0rem',
+        'extrasmall':'0.375rem',
+        'small':'0.625rem',
+        'medium':'1rem',
+        'large':'1.25rem',
+        'extralarge':'1.875rem',
       },
       borderRadius: {
-        '4xl': '2rem',
-        'rin': '4rem'
+        'none': '0rem',
+        'extrasmall':'0.375rem',
+        'small':'0.625rem',
+        'medium':'1rem',
+        'large':'1.25rem',
+        'extralarge':'1.875rem',
+        'full': '50%'
       }
     }
   },
