@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss build ./src/styles.css -o ./dist/output.css"
+    "build": "npx tailwindcss build ./src/styles.css -o ./dist/output.css",
+    "minor": "npx tailwindcss build ./src/styles.css -o ./dist/output.css && npm version minor && npm publish  ",
+    "major": "npx tailwindcss build ./src/styles.css -o ./dist/output.css && npm version major && npm publish  ",
+    "patch": "npx tailwindcss build ./src/styles.css -o ./dist/output.css && npm version patch && npm publish  "
   },
   "repository": {
     "type": "git",
