@@ -8,7 +8,7 @@ const materialTailwindConfig = {
     colors: {
     
       primary:{
-        'default':'#6750A4',
+        DEFAULT:'#6750A4',
         '50': '#f3f3fb',
         '100': '#e7e5f4',
         '200': '#d3d0ed',
@@ -29,6 +29,7 @@ const materialTailwindConfig = {
       warning:'#f1d26d',
 
     },
+
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
@@ -46,6 +47,7 @@ const materialTailwindConfig = {
       },
 
       borderRadius: {
+        DEFAULT: '1rem',
         'none': '0rem',
         'extrasmall':'0.375rem',
         'small':'0.625rem',
@@ -53,6 +55,10 @@ const materialTailwindConfig = {
         'large':'1.25rem',
         'extralarge':'1.875rem',
         'full': '50%'
+      },
+      boxShadow:{
+        DEFAULT:'0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15)',
+        'sm':'0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15)'
       }
     }
   },

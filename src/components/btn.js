@@ -4,13 +4,13 @@ module.exports = plugin(function ({ addComponents ,theme}) {
   const buttons = {
     ".raised-btn": {
         backgroundColor: theme('colors.primary.100'),
-        color: theme('colors.neutral'),
+        color: theme('colors.primary.700'),
         borderRadius: theme('borderRadius.extralarge'),
-        paddingBottom: theme('spacing.extrasmall'),
+        paddingBottom:  theme('spacing.small'),
         paddingRight: theme('spacing.large'),
         paddingTop: theme('spacing.extrasmall'),
         paddingLeft: theme('spacing.large'),
-        alignItems: 'ce'
+        boxShadow: theme('boxShadow.DEFAULT')
     },
 
     // ".filled-btn": {},
