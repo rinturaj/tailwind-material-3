@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx tailwindcss -i  ./src/styles.css -o ./dist/output.css --watch    ",
     "build": "npx tailwindcss build ./src/styles.css -o ./dist/output.css",
     "minor": "npx tailwindcss build ./src/styles.css -o ./dist/output.css && npm version minor && npm publish  ",
     "major": "npx tailwindcss build ./src/styles.css -o ./dist/output.css && npm version major && npm publish  ",
