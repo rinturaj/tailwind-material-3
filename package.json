@@ -23,7 +23,8 @@
   "homepage": "https://github.com/rinturaj/tailwind-material-3#readme",
   "dependencies": {
     "@tailwindcss/cli": "^0.1.2",
-    "deepmerge": "^4.2.2"
+    "deepmerge": "^4.2.2",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"

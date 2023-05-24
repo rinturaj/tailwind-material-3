@@ -1,13 +1,3 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
-/* add your own custom CSS styles here */
-@layer utilities {
-  .test {
-    background-color: brown !important;
-  }
-  .rintu {
-    color: #fefefe;
-  }
-}
