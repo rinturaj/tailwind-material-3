@@ -626,6 +626,26 @@ video {
   color: rgb(31, 128, 55) !important;
 }
 
+.raised-btn.color-primary-dark {
+  background-color: #005312 !important;
+  color: #71de70 !important;
+}
+
+.raised-btn.color-primary-dark:focus {
+  background-color: rgb(17, 103, 32) !important;
+  color: rgb(99, 202, 100) !important;
+}
+
+.raised-btn.color-primary-dark:hover {
+  background-color: rgb(11, 96, 27) !important;
+  color: rgb(104, 209, 104) !important;
+}
+
+.raised-btn.color-primary-dark:active {
+  background-color: rgb(17, 103, 32) !important;
+  color: rgb(99, 202, 100) !important;
+}
+
 .raised-btn.color-secondary-light {
   background-color: #d5e8ce !important;
   color: #52634f !important;
@@ -644,6 +664,26 @@ video {
 .raised-btn.color-secondary-light:active {
   background-color: rgb(189, 208, 183) !important;
   color: rgb(103, 118, 100) !important;
+}
+
+.raised-btn.color-secondary-dark {
+  background-color: #3b4b38 !important;
+  color: #baccb3 !important;
+}
+
+.raised-btn.color-secondary-dark:focus {
+  background-color: rgb(78, 94, 74) !important;
+  color: rgb(168, 186, 161) !important;
+}
+
+.raised-btn.color-secondary-dark:hover {
+  background-color: rgb(71, 87, 68) !important;
+  color: rgb(174, 192, 168) !important;
+}
+
+.raised-btn.color-secondary-dark:active {
+  background-color: rgb(78, 94, 74) !important;
+  color: rgb(168, 186, 161) !important;
 }
 
 .raised-btn.color-tertiary-light {
@@ -666,6 +706,26 @@ video {
   color: rgb(80, 120, 124) !important;
 }
 
+.raised-btn.color-tertiary-dark {
+  background-color: #1f4d52 !important;
+  color: #a0cfd4 !important;
+}
+
+.raised-btn.color-tertiary-dark:focus {
+  background-color: rgb(50, 96, 101) !important;
+  color: rgb(141, 188, 193) !important;
+}
+
+.raised-btn.color-tertiary-dark:hover {
+  background-color: rgb(43, 89, 94) !important;
+  color: rgb(147, 195, 200) !important;
+}
+
+.raised-btn.color-tertiary-dark:active {
+  background-color: rgb(50, 96, 101) !important;
+  color: rgb(141, 188, 193) !important;
+}
+
 .raised-btn.color-error-light {
   background-color: #ffdad6 !important;
   color: #ba1a1a !important;
@@ -684,6 +744,26 @@ video {
 .raised-btn.color-error-light:active {
   background-color: rgb(232, 191, 188) !important;
   color: rgb(194, 54, 54) !important;
+}
+
+.raised-btn.color-error-dark {
+  background-color: #93000a !important;
+  color: #ffb4ab !important;
+}
+
+.raised-btn.color-error-dark:focus {
+  background-color: rgb(160, 22, 30) !important;
+  color: rgb(237, 158, 151) !important;
+}
+
+.raised-btn.color-error-dark:hover {
+  background-color: rgb(155, 14, 23) !important;
+  color: rgb(243, 166, 158) !important;
+}
+
+.raised-btn.color-error-dark:active {
+  background-color: rgb(160, 22, 30) !important;
+  color: rgb(237, 158, 151) !important;
 }
 
 .raised-btn.color-background-light {
@@ -706,6 +786,26 @@ video {
   color: rgb(225, 226, 219) !important;
 }
 
+.raised-btn.color-background-dark {
+  background-color: undefined !important;
+  color: #1a1c19 !important;
+}
+
+.raised-btn.color-background-dark:focus {
+  background-color: undefined !important;
+  color: rgb(50, 52, 49) !important;
+}
+
+.raised-btn.color-background-dark:hover {
+  background-color: undefined !important;
+  color: rgb(42, 44, 40) !important;
+}
+
+.raised-btn.color-background-dark:active {
+  background-color: undefined !important;
+  color: rgb(50, 52, 49) !important;
+}
+
 .raised-btn.color-surface-light {
   background-color: undefined !important;
   color: #fcfdf6 !important;
@@ -724,6 +824,26 @@ video {
 .raised-btn.color-surface-light:active {
   background-color: undefined !important;
   color: rgb(225, 226, 219) !important;
+}
+
+.raised-btn.color-surface-dark {
+  background-color: undefined !important;
+  color: #1a1c19 !important;
+}
+
+.raised-btn.color-surface-dark:focus {
+  background-color: undefined !important;
+  color: rgb(50, 52, 49) !important;
+}
+
+.raised-btn.color-surface-dark:hover {
+  background-color: undefined !important;
+  color: rgb(42, 44, 40) !important;
+}
+
+.raised-btn.color-surface-dark:active {
+  background-color: undefined !important;
+  color: rgb(50, 52, 49) !important;
 }
 
 .raised-btn.color-outline-light {
@@ -746,24 +866,64 @@ video {
   color: undefined !important;
 }
 
+.raised-btn.color-outline-dark {
+  background-color: undefined !important;
+  color: #8c9388 !important;
+}
+
+.raised-btn.color-outline-dark:focus {
+  background-color: undefined !important;
+  color: undefined !important;
+}
+
+.raised-btn.color-outline-dark:hover {
+  background-color: undefined !important;
+  color: undefined !important;
+}
+
+.raised-btn.color-outline-dark:active {
+  background-color: undefined !important;
+  color: undefined !important;
+}
+
 .raised-btn.color-blue-light {
-  background-color: #d6e3ff !important;
-  color: #035db7 !important;
+  background-color: #e4dfff !important;
+  color: #5531fd !important;
 }
 
 .raised-btn.color-blue-light:focus {
-  background-color: rgb(188, 203, 232) !important;
-  color: rgb(34, 113, 192) !important;
+  background-color: rgb(203, 196, 236) !important;
+  color: rgb(106, 74, 253) !important;
 }
 
 .raised-btn.color-blue-light:hover {
-  background-color: rgb(197, 211, 240) !important;
-  color: rgb(23, 106, 189) !important;
+  background-color: rgb(212, 206, 243) !important;
+  color: rgb(98, 65, 253) !important;
 }
 
 .raised-btn.color-blue-light:active {
-  background-color: rgb(188, 203, 232) !important;
-  color: rgb(34, 113, 192) !important;
+  background-color: rgb(203, 196, 236) !important;
+  color: rgb(106, 74, 253) !important;
+}
+
+.raised-btn.color-blue-dark {
+  background-color: #3d00de !important;
+  color: #c6bfff !important;
+}
+
+.raised-btn.color-blue-dark:focus {
+  background-color: rgb(81, 27, 226) !important;
+  color: rgb(179, 168, 243) !important;
+}
+
+.raised-btn.color-blue-dark:hover {
+  background-color: rgb(74, 17, 225) !important;
+  color: rgb(186, 176, 247) !important;
+}
+
+.raised-btn.color-blue-dark:active {
+  background-color: rgb(81, 27, 226) !important;
+  color: rgb(179, 168, 243) !important;
 }
 
 .card {
@@ -811,4 +971,26 @@ video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:color-blue-dark.raised-btn {
+    background-color: #3d00de !important;
+    color: #c6bfff !important;
+  }
+
+  .dark\:color-blue-dark.raised-btn:focus {
+    background-color: rgb(81, 27, 226) !important;
+    color: rgb(179, 168, 243) !important;
+  }
+
+  .dark\:color-blue-dark.raised-btn:hover {
+    background-color: rgb(74, 17, 225) !important;
+    color: rgb(186, 176, 247) !important;
+  }
+
+  .dark\:color-blue-dark.raised-btn:active {
+    background-color: rgb(81, 27, 226) !important;
+    color: rgb(179, 168, 243) !important;
+  }
 }

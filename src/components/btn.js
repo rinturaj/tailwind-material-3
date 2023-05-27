@@ -32,6 +32,26 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
           color: theme(`colors.${x}-light-press`) + "!important",
         },
       },
+      [`.raised-btn.color-${x}-dark`]: {
+        backgroundColor: theme(`colors.${x}-container-dark`) + "!important",
+        color: theme(`colors.${x}-dark`) + "!important",
+
+        "&:focus": {
+          backgroundColor:
+            theme(`colors.${x}-container-dark-focus`) + "!important",
+          color: theme(`colors.${x}-dark-focus`) + "!important",
+        },
+        "&:hover": {
+          backgroundColor:
+            theme(`colors.${x}-container-dark-hover`) + "!important",
+          color: theme(`colors.${x}-dark-hover`) + "!important",
+        },
+        "&:active": {
+          backgroundColor:
+            theme(`colors.${x}-container-dark-press`) + "!important",
+          color: theme(`colors.${x}-dark-press`) + "!important",
+        },
+      },
     };
   });
 

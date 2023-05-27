@@ -8,7 +8,7 @@ let materialTailwindConfig = {
   theme: {
     colors: {
       primary: "#138b29",
-      blue:"#1646f3"
+      blue:"#8116f3"
     },
 
     fontFamily: {
