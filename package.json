@@ -27,6 +27,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "tailwind-material-colors": "^1.0.1",
     "tailwindcss": "^3.3.2"
   }
 }
