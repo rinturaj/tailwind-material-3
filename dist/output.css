@@ -546,6 +546,8 @@ video {
 }
 
 .filled-btn {
+  background-color: #006e1b;
+  color: #ffffff;
   border-radius: 1.875rem;
   padding-bottom: 0.625rem;
   padding-right: 1.25rem;
@@ -554,21 +556,28 @@ video {
 }
 
 .filled-btn:disabled,.filled-btn filled-btn[disabled] {
-  background-color: undefined !important;
-  color: undefined !important;
+  background-color: #006e1b;
+  color: #ffffff;
+  opacity: .12;
   box-shadow: none !important;
+  border-radius: none !important;
 }
 
 .filled-btn:hover {
+  background-color: rgb(20, 121, 45);
+  color: #ffffff;
   box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15);
 }
 
 .filled-btn:active {
+  background-color: rgb(31, 128, 55);
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .filled-tonal-btn {
+  background-color: #8cfb89;
+  color: #002204;
   border-radius: 1.875rem;
   padding-bottom: 0.625rem;
   padding-right: 1.25rem;
@@ -577,21 +586,57 @@ video {
 }
 
 .filled-tonal-btn:disabled,.filled-tonal-btn filled-btn[disabled] {
-  background-color: undefined !important;
+  background-color: #8cfb89 !important;
   color: undefined !important;
+  opacity: .12;
   box-shadow: none !important;
+  border-radius: none !important;
 }
 
 .filled-tonal-btn:hover {
+  background-color: rgb(129, 234, 127);
+  color: #002204;
   box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15);
 }
 
 .filled-tonal-btn:active {
+  background-color: rgb(123, 225, 121);
+  color: #002204;
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .outlined-btn {
+  background-color: transparent;
+  color: #006e1b;
+  border-radius: 1.875rem;
+  padding-bottom: 0.625rem;
+  padding-right: 1.25rem;
+  padding-top: 0.375rem;
+  padding-left: 1.25rem;
+  border-color: rgb(var(--color-outline) / <alpha-value>);
+  border-width: 1px;
+}
+
+.outlined-btn:disabled,.outlined-btn filled-btn[disabled] {
+  background-color: rgb(var(--color-inverse-primary) / <alpha-value>) !important;
+  color: rgb(var(--color-primary) / <alpha-value>) !important;
+  opacity: .12;
+  box-shadow: none !important;
+  border-radius: none !important;
+}
+
+.outlined-btn:hover {
+  background-color: rgb(var(--color-inverse-primary) / <alpha-value>);
+  color: #002204;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15);
+}
+
+.outlined-btn:active {
+  background-color: rgb(123, 225, 121);
+  color: #002204;
+  box-shadow: none;
+  border-radius: 1rem;
 }
 
 .text-btn {
@@ -969,6 +1014,10 @@ video {
   padding: 1rem;
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -994,3 +1043,5 @@ video {
     color: rgb(179, 168, 243) !important;
   }
 }
+
+
