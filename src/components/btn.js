@@ -67,6 +67,13 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
       paddingTop: theme("spacing.extrasmall"),
       paddingLeft: theme("spacing.large"),
       boxShadow: theme("boxShadow.DEFAULT"),
+      "&:disabled,filled-btn[disabled]": {
+        backgroundColor: theme("colors.primary-container-light"),
+        color: theme("colors.primary-light"),
+        opacity:'.12',
+        boxShadow: "none !important",
+        borderRadius: 'none !important'
+      },
       "&:hover": {
         backgroundColor: theme("colors.primary-container-light-hover"),
         color: theme("colors.primary-light-hover"),
@@ -114,7 +121,7 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
       paddingRight: theme("spacing.large"),
       paddingTop: theme("spacing.extrasmall"),
       paddingLeft: theme("spacing.large"),
-      "&:disabled,filled-btn[disabled]": {
+      "&:disabled,filled-tonal-btn[disabled]": {
         backgroundColor: theme("colors.primary-container-light") + "!important",
         color: theme("colors.primary-on-container-light") + "!important",
         opacity:'.12',
@@ -143,7 +150,7 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
       paddingLeft: theme("spacing.large"),
       borderColor: theme("colors.outline"),
       borderWidth: '1px',
-      "&:disabled,filled-btn[disabled]": {
+      "&:disabled,outlined-btn[disabled]": {
         backgroundColor: theme("colors.inverse-primary") + "!important",
         color: theme("colors.primary") + "!important",
         opacity:'.12',
@@ -151,21 +158,68 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
         borderRadius: 'none !important'
       },
       "&:hover": {
-        backgroundColor: theme("colors.inverse-primary"),
-        color: theme("colors.on-primary-container-light"),
-        boxShadow: theme("boxShadow.DEFAULT"),
+        backgroundColor: theme("colors.primary-light")+'32',
+        color: theme("colors.primary-light"),
       },
       "&:active": {
-        backgroundColor: theme("colors.primary-container-light-press"),
-        color: theme("colors.on-primary-container-light"),
+        backgroundColor: theme("colors.primary-light")+'48',
+        color: theme("colors.primary-light"),
         boxShadow: "none",
         borderRadius: theme("borderRadius.medium"),
       },
     },
-    ".text-btn": {},
-    ".icon-btn": {},
+    ".text-btn": {
+      backgroundColor: 'transparent',
+      color: theme("colors.primary-light"),
+      borderWidth : '0px',
+      paddingBottom: theme("spacing.small"),
+      paddingRight: theme("spacing.large"),
+      paddingTop: theme("spacing.extrasmall"),
+      paddingLeft: theme("spacing.large"),
+      borderColor: theme("colors.outline"),
+      borderRadius: theme("borderRadius.extralarge"),
+
+      "&:hover": {
+        backgroundColor: theme("colors.primary-light")+'24',
+        color: theme("colors.primary-light"),
+
+      },
+      "&:active": {
+        backgroundColor: theme("colors.primary-light")+'48',
+        color: theme("colors.primary-light"),
+        boxShadow: "none",
+        borderRadius: theme("borderRadius.medium"),
+
+      },
+    },
+    ".icon-btn": {
+      backgroundColor: 'transparent',
+      color: theme("colors.primary-light"),
+      borderWidth : '0px',
+      paddingBottom: theme("spacing.small"),
+      paddingRight: theme("spacing.large"),
+      paddingTop: theme("spacing.extrasmall"),
+      paddingLeft: theme("spacing.large"),
+      borderColor: theme("colors.outline"),
+      borderRadius: theme("borderRadius.extralarge"),
+     
+      "&:hover": {
+        backgroundColor: theme("colors.primary-light")+'24',
+        color: theme("colors.primary-light"),
+      },
+      "&:active": {
+        backgroundColor: theme("colors.primary-light")+'48',
+        color: theme("colors.primary-light"),
+        boxShadow: "none",
+        borderRadius: theme("borderRadius.medium"),
+
+      },
+    },
     ".fab-btn": {},
     ".extended-fab-btn": {},
+    ".with-icon":{
+      display:'inline'
+    },
     ...varients,
   };
 
