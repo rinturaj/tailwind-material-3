@@ -155,7 +155,7 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
         color: theme("colors.primary") + "!important",
         opacity:'.12',
         boxShadow: "none !important",
-        borderRadius: 'none !important'
+        borderRadius: 'unset !important'
       },
       "&:hover": {
         backgroundColor: theme("colors.primary-light")+'32',
@@ -215,8 +215,30 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
 
       },
     },
-    ".fab-btn": {},
-    ".extended-fab-btn": {},
+    ".fab-btn": {
+      backgroundColor: theme('colors.primary-container-light'),
+      color: theme('colors.on-primary-container-light'),
+      borderWidth : '0px',
+      paddingBottom: theme("spacing.large"),
+      paddingRight: theme("spacing.large"),
+      paddingTop: theme("spacing.large"),
+      paddingLeft: theme("spacing.large"),
+      borderColor: theme("colors.outline"),
+      borderRadius: theme("borderRadius.medium"),
+      boxShadow: theme("boxShadow.l3"),
+      "&:hover": {
+        backgroundColor: theme('colors.primary-container-light-hover'),
+        color: theme("colors.primary-light"),
+      },
+      "&:active": {
+        backgroundColor: theme('colors.primary-container-light-press'),
+        color: theme("colors.primary-light"),
+        borderRadius: theme("borderRadius.medium"),
+        boxShadow: theme("boxShadow.l1"),
+
+      },
+    },
+    
     ".with-icon":{
       display:'inline'
     },

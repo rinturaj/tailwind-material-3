@@ -523,38 +523,38 @@ video {
 }
 
 .raised-btn {
-  background-color: #8cfb89;
-  color: #006e1b;
+  background-color: #b7f396;
+  color: #376a1f;
   border-radius: 1.875rem;
   padding-bottom: 0.625rem;
   padding-right: 1.25rem;
   padding-top: 0.375rem;
   padding-left: 1.25rem;
-  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15);
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 1px 3px 1px rgb(0 0 0 / 15%);
 }
 
 .raised-btn:disabled,.raised-btn filled-btn[disabled] {
-  background-color: #8cfb89;
-  color: #006e1b;
+  background-color: #b7f396;
+  color: #376a1f;
   opacity: .12;
   box-shadow: none !important;
   border-radius: none !important;
 }
 
 .raised-btn:hover {
-  background-color: rgb(129, 234, 127);
-  color: rgb(20, 121, 45);
+  background-color: rgb(169, 227, 138);
+  color: rgb(71, 118, 49);
 }
 
 .raised-btn:active {
-  background-color: rgb(123, 225, 121);
-  color: rgb(31, 128, 55);
+  background-color: rgb(162, 217, 132);
+  color: rgb(79, 124, 58);
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .filled-btn {
-  background-color: #006e1b;
+  background-color: #376a1f;
   color: #ffffff;
   border-radius: 1.875rem;
   padding-bottom: 0.625rem;
@@ -564,7 +564,7 @@ video {
 }
 
 .filled-btn:disabled,.filled-btn filled-btn[disabled] {
-  background-color: #006e1b;
+  background-color: #376a1f;
   color: #ffffff;
   opacity: .12;
   box-shadow: none !important;
@@ -572,20 +572,20 @@ video {
 }
 
 .filled-btn:hover {
-  background-color: rgb(20, 121, 45);
+  background-color: rgb(71, 118, 49);
   color: #ffffff;
-  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15);
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 1px 3px 1px rgb(0 0 0 / 15%);
 }
 
 .filled-btn:active {
-  background-color: rgb(31, 128, 55);
+  background-color: rgb(79, 124, 58);
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .filled-tonal-btn {
-  background-color: #8cfb89;
-  color: #002204;
+  background-color: #b7f396;
+  color: #072100;
   border-radius: 1.875rem;
   padding-bottom: 0.625rem;
   padding-right: 1.25rem;
@@ -594,7 +594,7 @@ video {
 }
 
 .filled-tonal-btn:disabled,.filled-tonal-btn filled-tonal-btn[disabled] {
-  background-color: #8cfb89 !important;
+  background-color: #b7f396 !important;
   color: undefined !important;
   opacity: .12;
   box-shadow: none !important;
@@ -602,21 +602,21 @@ video {
 }
 
 .filled-tonal-btn:hover {
-  background-color: rgb(129, 234, 127);
-  color: #002204;
-  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15);
+  background-color: rgb(169, 227, 138);
+  color: #072100;
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 1px 3px 1px rgb(0 0 0 / 15%);
 }
 
 .filled-tonal-btn:active {
-  background-color: rgb(123, 225, 121);
-  color: #002204;
+  background-color: rgb(162, 217, 132);
+  color: #072100;
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .outlined-btn {
   background-color: transparent;
-  color: #006e1b;
+  color: #376a1f;
   border-radius: 1.875rem;
   padding-bottom: 0.625rem;
   padding-right: 1.25rem;
@@ -631,24 +631,24 @@ video {
   color: rgb(var(--color-primary) / <alpha-value>) !important;
   opacity: .12;
   box-shadow: none !important;
-  border-radius: none !important;
+  border-radius: unset !important;
 }
 
 .outlined-btn:hover {
-  background-color: #006e1b32;
-  color: #006e1b;
+  background-color: #376a1f32;
+  color: #376a1f;
 }
 
 .outlined-btn:active {
-  background-color: #006e1b48;
-  color: #006e1b;
+  background-color: #376a1f48;
+  color: #376a1f;
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .text-btn {
   background-color: transparent;
-  color: #006e1b;
+  color: #376a1f;
   border-width: 0px;
   padding-bottom: 0.625rem;
   padding-right: 1.25rem;
@@ -659,20 +659,20 @@ video {
 }
 
 .text-btn:hover {
-  background-color: #006e1b24;
-  color: #006e1b;
+  background-color: #376a1f24;
+  color: #376a1f;
 }
 
 .text-btn:active {
-  background-color: #006e1b48;
-  color: #006e1b;
+  background-color: #376a1f48;
+  color: #376a1f;
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .icon-btn {
   background-color: transparent;
-  color: #006e1b;
+  color: #376a1f;
   border-width: 0px;
   padding-bottom: 0.625rem;
   padding-right: 1.25rem;
@@ -683,21 +683,40 @@ video {
 }
 
 .icon-btn:hover {
-  background-color: #006e1b24;
-  color: #006e1b;
+  background-color: #376a1f24;
+  color: #376a1f;
 }
 
 .icon-btn:active {
-  background-color: #006e1b48;
-  color: #006e1b;
+  background-color: #376a1f48;
+  color: #376a1f;
   box-shadow: none;
   border-radius: 1rem;
 }
 
 .fab-btn {
+  background-color: #b7f396;
+  color: #072100;
+  border-width: 0px;
+  padding-bottom: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+  border-color: rgb(var(--color-outline) / <alpha-value>);
+  border-radius: 1rem;
+  box-shadow:  0px 1px 3px 0px rgb(0 0 0 / 30%), 0px 4px 8px 3px rgb(0 0 0 / 15%);
 }
 
-.extended-fab-btn {
+.fab-btn:hover {
+  background-color: rgb(169, 227, 138);
+  color: #376a1f;
+}
+
+.fab-btn:active {
+  background-color: rgb(162, 217, 132);
+  color: #376a1f;
+  border-radius: 1rem;
+  box-shadow:  0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 1px 3px 1px rgb(0 0 0 / 15%);
 }
 
 .with-icon {
@@ -705,123 +724,123 @@ video {
 }
 
 .raised-btn.color-primary-light {
-  background-color: #8cfb89 !important;
-  color: #006e1b !important;
+  background-color: #b7f396 !important;
+  color: #376a1f !important;
 }
 
 .raised-btn.color-primary-light:focus {
-  background-color: rgb(123, 225, 121) !important;
-  color: rgb(31, 128, 55) !important;
+  background-color: rgb(162, 217, 132) !important;
+  color: rgb(79, 124, 58) !important;
 }
 
 .raised-btn.color-primary-light:hover {
-  background-color: rgb(129, 234, 127) !important;
-  color: rgb(20, 121, 45) !important;
+  background-color: rgb(169, 227, 138) !important;
+  color: rgb(71, 118, 49) !important;
 }
 
 .raised-btn.color-primary-light:active {
-  background-color: rgb(123, 225, 121) !important;
-  color: rgb(31, 128, 55) !important;
+  background-color: rgb(162, 217, 132) !important;
+  color: rgb(79, 124, 58) !important;
 }
 
 .raised-btn.color-primary-dark {
-  background-color: #005312 !important;
-  color: #71de70 !important;
+  background-color: #1f5106 !important;
+  color: #9cd67d !important;
 }
 
 .raised-btn.color-primary-dark:focus {
-  background-color: rgb(17, 103, 32) !important;
-  color: rgb(99, 202, 100) !important;
+  background-color: rgb(49, 101, 24) !important;
+  color: rgb(139, 195, 110) !important;
 }
 
 .raised-btn.color-primary-dark:hover {
-  background-color: rgb(11, 96, 27) !important;
-  color: rgb(104, 209, 104) !important;
+  background-color: rgb(43, 94, 17) !important;
+  color: rgb(145, 202, 115) !important;
 }
 
 .raised-btn.color-primary-dark:active {
-  background-color: rgb(17, 103, 32) !important;
-  color: rgb(99, 202, 100) !important;
+  background-color: rgb(49, 101, 24) !important;
+  color: rgb(139, 195, 110) !important;
 }
 
 .raised-btn.color-secondary-light {
-  background-color: #d5e8ce !important;
-  color: #52634f !important;
+  background-color: #d8e7cb !important;
+  color: #55624c !important;
 }
 
 .raised-btn.color-secondary-light:focus {
-  background-color: rgb(189, 208, 183) !important;
-  color: rgb(103, 118, 100) !important;
+  background-color: rgb(192, 207, 180) !important;
+  color: rgb(106, 117, 98) !important;
 }
 
 .raised-btn.color-secondary-light:hover {
-  background-color: rgb(198, 216, 191) !important;
-  color: rgb(96, 111, 93) !important;
+  background-color: rgb(201, 215, 188) !important;
+  color: rgb(98, 110, 90) !important;
 }
 
 .raised-btn.color-secondary-light:active {
-  background-color: rgb(189, 208, 183) !important;
-  color: rgb(103, 118, 100) !important;
+  background-color: rgb(192, 207, 180) !important;
+  color: rgb(106, 117, 98) !important;
 }
 
 .raised-btn.color-secondary-dark {
-  background-color: #3b4b38 !important;
-  color: #baccb3 !important;
+  background-color: #3e4a36 !important;
+  color: #bdcbb0 !important;
 }
 
 .raised-btn.color-secondary-dark:focus {
-  background-color: rgb(78, 94, 74) !important;
-  color: rgb(168, 186, 161) !important;
+  background-color: rgb(81, 93, 72) !important;
+  color: rgb(171, 185, 158) !important;
 }
 
 .raised-btn.color-secondary-dark:hover {
-  background-color: rgb(71, 87, 68) !important;
-  color: rgb(174, 192, 168) !important;
+  background-color: rgb(74, 86, 66) !important;
+  color: rgb(177, 191, 165) !important;
 }
 
 .raised-btn.color-secondary-dark:active {
-  background-color: rgb(78, 94, 74) !important;
-  color: rgb(168, 186, 161) !important;
+  background-color: rgb(81, 93, 72) !important;
+  color: rgb(171, 185, 158) !important;
 }
 
 .raised-btn.color-tertiary-light {
-  background-color: #bcebf0 !important;
-  color: #38656a !important;
+  background-color: #bbebec !important;
+  color: #386666 !important;
 }
 
 .raised-btn.color-tertiary-light:focus {
-  background-color: rgb(165, 210, 215) !important;
-  color: rgb(80, 120, 124) !important;
+  background-color: rgb(164, 210, 211) !important;
+  color: rgb(80, 121, 121) !important;
 }
 
 .raised-btn.color-tertiary-light:hover {
-  background-color: rgb(173, 219, 224) !important;
-  color: rgb(72, 113, 118) !important;
+  background-color: rgb(172, 219, 220) !important;
+  color: rgb(72, 114, 114) !important;
 }
 
 .raised-btn.color-tertiary-light:active {
-  background-color: rgb(165, 210, 215) !important;
-  color: rgb(80, 120, 124) !important;
+  background-color: rgb(164, 210, 211) !important;
+  color: rgb(80, 121, 121) !important;
 }
 
 .raised-btn.color-tertiary-dark {
-  background-color: #1f4d52 !important;
-  color: #a0cfd4 !important;
+  background-color: #1e4e4f !important;
+  color: #a0cfd0 !important;
 }
 
 .raised-btn.color-tertiary-dark:focus {
-  background-color: rgb(50, 96, 101) !important;
-  color: rgb(141, 188, 193) !important;
+  background-color: rgb(49, 97, 98) !important;
+  color: rgb(141, 189, 190) !important;
 }
 
 .raised-btn.color-tertiary-dark:hover {
-  background-color: rgb(43, 89, 94) !important;
-  color: rgb(147, 195, 200) !important;
+  background-color: rgb(42, 90, 91) !important;
+  color: rgb(147, 195, 196) !important;
 }
 
 .raised-btn.color-tertiary-dark:active {
-  background-color: rgb(50, 96, 101) !important;
-  color: rgb(141, 188, 193) !important;
+  background-color: rgb(49, 97, 98) !important;
+  color: rgb(141, 189, 190) !important;
 }
 
 .raised-btn.color-error-light {
@@ -866,7 +885,7 @@ video {
 
 .raised-btn.color-background-light {
   background-color: undefined !important;
-  color: #fcfdf6 !important;
+  color: #fdfdf6 !important;
 }
 
 .raised-btn.color-background-light:focus {
@@ -876,7 +895,7 @@ video {
 
 .raised-btn.color-background-light:hover {
   background-color: undefined !important;
-  color: rgb(234, 235, 229) !important;
+  color: rgb(235, 235, 229) !important;
 }
 
 .raised-btn.color-background-light:active {
@@ -886,27 +905,27 @@ video {
 
 .raised-btn.color-background-dark {
   background-color: undefined !important;
-  color: #1a1c19 !important;
+  color: #1a1c18 !important;
 }
 
 .raised-btn.color-background-dark:focus {
   background-color: undefined !important;
-  color: rgb(50, 52, 49) !important;
+  color: rgb(50, 52, 48) !important;
 }
 
 .raised-btn.color-background-dark:hover {
   background-color: undefined !important;
-  color: rgb(42, 44, 40) !important;
+  color: rgb(42, 44, 39) !important;
 }
 
 .raised-btn.color-background-dark:active {
   background-color: undefined !important;
-  color: rgb(50, 52, 49) !important;
+  color: rgb(50, 52, 48) !important;
 }
 
 .raised-btn.color-surface-light {
   background-color: undefined !important;
-  color: #fcfdf6 !important;
+  color: #fdfdf6 !important;
 }
 
 .raised-btn.color-surface-light:focus {
@@ -916,7 +935,7 @@ video {
 
 .raised-btn.color-surface-light:hover {
   background-color: undefined !important;
-  color: rgb(234, 235, 229) !important;
+  color: rgb(235, 235, 229) !important;
 }
 
 .raised-btn.color-surface-light:active {
@@ -926,27 +945,27 @@ video {
 
 .raised-btn.color-surface-dark {
   background-color: undefined !important;
-  color: #1a1c19 !important;
+  color: #1a1c18 !important;
 }
 
 .raised-btn.color-surface-dark:focus {
   background-color: undefined !important;
-  color: rgb(50, 52, 49) !important;
+  color: rgb(50, 52, 48) !important;
 }
 
 .raised-btn.color-surface-dark:hover {
   background-color: undefined !important;
-  color: rgb(42, 44, 40) !important;
+  color: rgb(42, 44, 39) !important;
 }
 
 .raised-btn.color-surface-dark:active {
   background-color: undefined !important;
-  color: rgb(50, 52, 49) !important;
+  color: rgb(50, 52, 48) !important;
 }
 
 .raised-btn.color-outline-light {
   background-color: undefined !important;
-  color: #72796f !important;
+  color: #74796d !important;
 }
 
 .raised-btn.color-outline-light:focus {
@@ -966,7 +985,7 @@ video {
 
 .raised-btn.color-outline-dark {
   background-color: undefined !important;
-  color: #8c9388 !important;
+  color: #8d9286 !important;
 }
 
 .raised-btn.color-outline-dark:focus {
@@ -1075,6 +1094,26 @@ video {
   justify-content: space-between;
 }
 
+.bg-surface-variant-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 228 215 / var(--tw-bg-opacity));
+}
+
+.bg-primary-container-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(183 243 150 / var(--tw-bg-opacity));
+}
+
+.bg-secondary-container-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 231 203 / var(--tw-bg-opacity));
+}
+
+.bg-on-secondary-container-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 31 13 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -1097,28 +1136,6 @@ video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:color-blue-dark.raised-btn {
-    background-color: #3d00de !important;
-    color: #c6bfff !important;
-  }
-
-  .dark\:color-blue-dark.raised-btn:focus {
-    background-color: rgb(81, 27, 226) !important;
-    color: rgb(179, 168, 243) !important;
-  }
-
-  .dark\:color-blue-dark.raised-btn:hover {
-    background-color: rgb(74, 17, 225) !important;
-    color: rgb(186, 176, 247) !important;
-  }
-
-  .dark\:color-blue-dark.raised-btn:active {
-    background-color: rgb(81, 27, 226) !important;
-    color: rgb(179, 168, 243) !important;
-  }
 }
 
 

@@ -1,14 +1,12 @@
-
 const deepmerge = require("deepmerge");
 const { withMaterialColors } = require("tailwind-material-colors");
 
 let materialTailwindConfig = {
-
   content: ["./src/**/*.{html,js,css}"],
   theme: {
     colors: {
-      primary: "#138b29",
-      blue:"#8116f3"
+      primary: "#9cd67d",
+      blue: "#8116f3",
     },
 
     fontFamily: {
@@ -38,8 +36,11 @@ let materialTailwindConfig = {
       },
       boxShadow: {
         DEFAULT:
-          "0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15)",
-        sm: "0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15)",
+          "0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 1px 3px 1px rgb(0 0 0 / 15%)",
+        l1: " 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 1px 3px 1px rgb(0 0 0 / 15%)",
+        l2: " 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 2px 6px 2px rgb(0 0 0 / 15%)",
+        l3: " 0px 1px 3px 0px rgb(0 0 0 / 30%), 0px 4px 8px 3px rgb(0 0 0 / 15%)",
+        l4: " 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)",
       },
     },
   },
@@ -48,7 +49,9 @@ let materialTailwindConfig = {
 };
 
 function useMD3(tailwindConfig) {
-  materialTailwindConfig = deepmerge(materialTailwindConfig, { ...tailwindConfig })
+  materialTailwindConfig = deepmerge(materialTailwindConfig, {
+    ...tailwindConfig,
+  });
   let colorInput = materialTailwindConfig.theme.colors;
   let color = withMaterialColors({}, colorInput);
   materialTailwindConfig.theme.colors = color.theme.colors;
