@@ -15,6 +15,7 @@ let materialTailwindConfig = {
       roboto: ["Roboto", "serif"],
     },
     extend: {
+      
       spacing: {
         none: "0rem",
         extrasmall: "0.375rem",
