@@ -126,116 +126,120 @@ module.exports = plugin(function ({ addComponents, theme, config }) {
       [`.outlined-btn.btn-${x}`]: {
         color: theme(`colors.${x}-light`) + "!important",
         "&:focus": {
-          backgroundColor: theme(`colors.${x}-light`) + " 32 ",
+          backgroundColor: theme(`colors.${x}-light`) + "32 " + "!important",
           color: theme(`colors.${x}-light`),
         },
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-light`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-light`) + "48 " + "!important",
           color: theme(`colors.${x}-light`),
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-light`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-light`) + "48 " + "!important",
           color: theme(`colors.${x}-light`),
         },
       },
       [`.outlined-btn.btn-${x}-dark`]: {
         color: theme(`colors.${x}-dark`) + "!important",
         "&:focus": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 32 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "32 " + "!important",
           color: theme(`colors.${x}-dark`),
         },
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "48 " + "!important",
           color: theme(`colors.${x}-dark`),
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "48 " + "!important",
           color: theme(`colors.${x}-dark`),
         },
       },
       [`.text-btn.btn-${x}`]: {
         color: theme(`colors.${x}-light`) + "!important",
         "&:focus": {
-          backgroundColor: theme(`colors.${x}-light`) + " 32 ",
+          backgroundColor: theme(`colors.${x}-light`) + "32 ",
           color: theme(`colors.${x}-light`),
         },
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-light`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-light`) + "48 ",
           color: theme(`colors.${x}-light`),
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-light`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-light`) + "48 ",
           color: theme(`colors.${x}-light`),
         },
       },
       [`.text-btn.btn-${x}-dark`]: {
         color: theme(`colors.${x}-dark`) + "!important",
         "&:focus": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 32 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "32 ",
           color: theme(`colors.${x}-dark`),
         },
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "48 ",
           color: theme(`colors.${x}-dark`),
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "48 ",
           color: theme(`colors.${x}-dark`),
         },
       },
       [`.icon-btn.btn-${x}`]: {
         color: theme(`colors.${x}-light`) + "!important",
         "&:focus": {
-          backgroundColor: theme(`colors.${x}-light`) + " 32 ",
+          backgroundColor: theme(`colors.${x}-light`) + "32 ",
           color: theme(`colors.${x}-light`),
         },
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-light`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-light`) + "48 ",
           color: theme(`colors.${x}-light`),
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-light`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-light`) + "48 ",
           color: theme(`colors.${x}-light`),
         },
       },
       [`.icon-btn.btn-${x}-dark`]: {
         color: theme(`colors.${x}-dark`) + "!important",
         "&:focus": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 32 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "32 ",
           color: theme(`colors.${x}-dark`),
         },
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "48 ",
           color: theme(`colors.${x}-dark`),
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-dark`) + " 48 ",
+          backgroundColor: theme(`colors.${x}-dark`) + "48 ",
           color: theme(`colors.${x}-dark`),
         },
       },
       [`.fab-btn.btn-${x}`]: {
-        backgroundColor: theme(`colors.${x}-container-light`)+ "!important",
-        color: theme(`colors.on-${x}-container-light`)+ "!important",
-       
+        backgroundColor: theme(`colors.${x}-container-light`) + "!important",
+        color: theme(`colors.on-${x}-container-light`) + "!important",
+
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-container-light-hover`)+ "!important",
-          color: theme(`colors.${x}-light`)+ "!important",
+          backgroundColor:
+            theme(`colors.${x}-container-light-hover`) + "!important",
+          color: theme(`colors.${x}-light`) + "!important",
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-container-light-press`)+ "!important",
-          color: theme(`colors.${x}-light`)+ "!important",
+          backgroundColor:
+            theme(`colors.${x}-container-light-press`) + "!important",
+          color: theme(`colors.${x}-light`) + "!important",
         },
       },
       [`.fab-btn.btn-${x}-dark`]: {
-        backgroundColor: theme(`colors.${x}-container-dark`)+ "!important",
-        color: theme(`colors.on-${x}-container-dark`)+ "!important",
-       
+        backgroundColor: theme(`colors.${x}-container-dark`) + "!important",
+        color: theme(`colors.on-${x}-container-dark`) + "!important",
+
         "&:hover": {
-          backgroundColor: theme(`colors.${x}-container-dark-hover`) + "!important",
-          color: theme(`colors.${x}-light`)+ "!important",
+          backgroundColor:
+            theme(`colors.${x}-container-dark-hover`) + "!important",
+          color: theme(`colors.${x}-light`) + "!important",
         },
         "&:active": {
-          backgroundColor: theme(`colors.${x}-container-dark-press`) + "!important",
+          backgroundColor:
+            theme(`colors.${x}-container-dark-press`) + "!important",
           color: theme(`colors.${x}-dark`) + "!important",
         },
       },
