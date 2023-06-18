@@ -2869,9 +2869,26 @@ video {
   color: #c6bfff !important;
 }
 
-.card {
-  background: #f7f2fa;
-  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15);
+.card-outlined {
+  background: #fdfdf6;
+  box-shadow: none;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card-elevated {
+  background: #fdfdf6;
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%), 0px 1px 3px 1px rgb(0 0 0 / 15%);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card-filled {
+  background: #fdfdf6;
+  box-shadow: none;
+  padding: 1rem;
+  border-width: 1px;
+  border-color: rgb(var(--color-outline) / <alpha-value>);
   border-radius: 1rem;
 }
 
@@ -2909,6 +2926,10 @@ video {
 
 .row-span-3 {
   grid-row: span 3 / span 3;
+}
+
+.m-2 {
+  margin: 0.5rem;
 }
 
 .m-3 {

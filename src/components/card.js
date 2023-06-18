@@ -1,14 +1,28 @@
 const plugin = require("tailwindcss/plugin");
 
-module.exports = plugin(function ({ addComponents,theme }) {
+module.exports = plugin(function ({ addComponents, theme }) {
   const card = {
-    ".card": {
-    
-        background: '#f7f2fa',
-        boxShadow:'0 0.0625rem 0.125rem 0 rgba(0,0,0,.3), 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.15)',
-        borderRadius:theme('borderRadius.DEFAULT')
-    }
+    ".card-outlined": {
+      background: theme("colors.surface-light"),
+      boxShadow: 'none',
+      borderRadius: theme("borderRadius.DEFAULT"),
+      padding: theme("spacing.medium"),
+    },
+    ".card-elevated": {
+      background: theme("colors.surface-light"),
+      boxShadow: theme("boxShadow.DEFAULT"),
+      borderRadius: theme("borderRadius.DEFAULT"),
+      padding: theme("spacing.medium"),
+    },
+    ".card-filled": {
 
+      background: theme("colors.surface-light"),
+      boxShadow:'none',
+      padding: theme("spacing.medium"),
+      borderWidth:'1px',
+      borderColor: theme("colors.outline"),
+      borderRadius: theme("borderRadius.DEFAULT"),
+    },
   };
 
   addComponents(card);

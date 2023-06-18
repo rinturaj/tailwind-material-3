@@ -55,6 +55,7 @@ function useMD3(tailwindConfig) {
   });
   let colorInput = materialTailwindConfig.theme.colors;
   let color = withMaterialColors({}, colorInput);
+  console.log(color);
   materialTailwindConfig.theme.colors = color.theme.colors;
 
   return materialTailwindConfig;
