@@ -1,7 +1,7 @@
 {
   "name": "tailwind-material-3",
   "version": "2.0.0",
-  "description": " Alpha version ",
+  "description": "Tailwind Material 3 is a library that provides ready-to-use UI components for Tailwind CSS users. It includes a range of customizable components such as buttons, cards, and forms, as well as useful utilities and helpers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,6 +15,23 @@
     "type": "git",
     "url": "git+https://github.com/rinturaj/tailwind-material-3.git"
   },
+  "keywords": [
+    "tailwindcss",
+    "tailwindcss-material-colors",
+    "tailwindcss-material-icons",
+    "tailwindcss-typography",
+    "@tailwindcss/cli",
+    "@tailwindcss/forms",
+    "@tailwindcss/typography",
+    "material-colors",
+    "material 3",
+    "material icons",
+    "typography",
+    "google material 3",
+    "google material icons",
+    "dynamic colors",
+    "material-colors"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
