@@ -1,6 +1,6 @@
 {
   "name": "tailwind-material-3",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tailwind Material 3 is a library that provides ready-to-use UI components for Tailwind CSS users. It includes a range of customizable components such as buttons, cards, and forms, as well as useful utilities and helpers",
   "main": "index.js",
   "scripts": {
