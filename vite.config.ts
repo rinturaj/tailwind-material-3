@@ -35,7 +35,7 @@ export default defineConfig({
     plugins: [
         dts({
             include: ['src/**/*'],
-            exclude: ['src/**/*.test.ts', 'src/**/*.spec.ts', 'src/_example/**/*'],
+            exclude: ['src/**/*.test.ts', 'src/**/*.spec.ts', 'src/_example/**/*', 'src/**/*.css'],
             outDir: 'dist/types',
             rollupTypes: true,
         }),

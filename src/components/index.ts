@@ -3,7 +3,5 @@
  */
 
 export { buttonPlugin } from './button';
-// export { cardPlugin } from './card';
-// export { inputPlugin } from './input';
-// export { dialogPlugin } from './dialog';
-// export { snackbarPlugin } from './snackbar';
+export { cardPlugin } from './card';
+export { textFieldPlugin } from './text-field';
