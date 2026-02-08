@@ -1,0 +1,156 @@
+/**
+ * Material Design 3 Base Styles
+ * Core CSS custom properties and base styles
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+@layer base {
+  /* Light theme (default) */
+  :root {
+    /* Primary */
+    --md-primary: #6750a4;
+    --md-on-primary: #ffffff;
+    --md-primary-container: #eaddff;
+    --md-on-primary-container: #21005d;
+
+    /* Secondary */
+    --md-secondary: #625b71;
+    --md-on-secondary: #ffffff;
+    --md-secondary-container: #e8def8;
+    --md-on-secondary-container: #1d192b;
+
+    /* Tertiary */
+    --md-tertiary: #7d5260;
+    --md-on-tertiary: #ffffff;
+    --md-tertiary-container: #ffd8e4;
+    --md-on-tertiary-container: #31111d;
+
+    /* Error */
+    --md-error: #b3261e;
+    --md-on-error: #ffffff;
+    --md-error-container: #f9dedc;
+    --md-on-error-container: #410e0b;
+
+    /* Background */
+    --md-background: #fffbfe;
+    --md-on-background: #1c1b1f;
+
+    /* Surface */
+    --md-surface: #fffbfe;
+    --md-on-surface: #1c1b1f;
+    --md-surface-variant: #e7e0ec;
+    --md-on-surface-variant: #49454f;
+
+    /* Outline */
+    --md-outline: #79747e;
+    --md-outline-variant: #cac4d0;
+
+    /* State layer opacities */
+    --md-state-hover: 0.08;
+    --md-state-focus: 0.12;
+    --md-state-press: 0.12;
+    --md-state-drag: 0.16;
+  }
+
+  /* Dark theme */
+  .dark {
+    /* Primary */
+    --md-primary: #d0bcff;
+    --md-on-primary: #381e72;
+    --md-primary-container: #4f378b;
+    --md-on-primary-container: #eaddff;
+
+    /* Secondary */
+    --md-secondary: #ccc2dc;
+    --md-on-secondary: #332d41;
+    --md-secondary-container: #4a4458;
+    --md-on-secondary-container: #e8def8;
+
+    /* Tertiary */
+    --md-tertiary: #efb8c8;
+    --md-on-tertiary: #492532;
+    --md-tertiary-container: #633b48;
+    --md-on-tertiary-container: #ffd8e4;
+
+    /* Error */
+    --md-error: #f2b8b5;
+    --md-on-error: #601410;
+    --md-error-container: #8c1d18;
+    --md-on-error-container: #f9dedc;
+
+    /* Background */
+    --md-background: #1c1b1f;
+    --md-on-background: #e6e1e5;
+
+    /* Surface */
+    --md-surface: #1c1b1f;
+    --md-on-surface: #e6e1e5;
+    --md-surface-variant: #49454f;
+    --md-on-surface-variant: #cac4d0;
+
+    /* Outline */
+    --md-outline: #938f99;
+    --md-outline-variant: #49454f;
+  }
+
+  /* Base element styles */
+  body {
+    @apply bg-md-background text-md-on-background font-roboto antialiased;
+  }
+}
+
+@layer utilities {
+  /* State layer utilities */
+  .md-state-layer-hover {
+    position: relative;
+  }
+
+  .md-state-layer-hover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: currentColor;
+    opacity: 0;
+    transition: opacity 200ms cubic-bezier(0.2, 0, 0, 1);
+    pointer-events: none;
+  }
+
+  .md-state-layer-hover:hover::before {
+    opacity: var(--md-state-hover);
+  }
+
+  .md-state-layer-hover:focus::before {
+    opacity: var(--md-state-focus);
+  }
+
+  .md-state-layer-hover:active::before {
+    opacity: var(--md-state-press);
+  }
+
+  /* Elevation with surface tint utilities */
+  .md-elevation-1 {
+    @apply shadow-md-1;
+  }
+
+  .md-elevation-2 {
+    @apply shadow-md-2;
+  }
+
+  .md-elevation-3 {
+    @apply shadow-md-3;
+  }
+
+  .md-elevation-4 {
+    @apply shadow-md-4;
+  }
+
+  .md-elevation-5 {
+    @apply shadow-md-5;
+  }
+}
