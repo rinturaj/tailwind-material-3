@@ -5,45 +5,53 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [3.0.0] - 2026-02-08
 
 ### Added
-- Initial release of tailwind-material-3
-- Button component with 5 variants (Filled, Outlined, Text, Elevated, Tonal)
-- Icon buttons and FABs (Floating Action Buttons)
-- Card component with 3 variants (Elevated, Filled, Outlined)
-- Text Field component with 2 variants (Filled, Outlined)
-- Complete Material Design 3 design token system
-- TypeScript support with full type definitions
-- ESM and CommonJS builds
-- Interactive HTML demos
-- Angular integration example
 
-### Features
-- **Design Tokens**: Complete Material 3 design system (colors, typography, elevation, shape, motion)
-- **Dark Mode**: Full dark mode support with CSS custom properties
-- **Accessibility**: ARIA attributes and keyboard navigation
-- **Type Safety**: Comprehensive TypeScript definitions
-- **Tree-shakeable**: ESM build with proper module structure
-- **Framework Agnostic**: Works with any JavaScript framework or vanilla HTML
+- **New Components**:
+  - `Checkbox`
+  - `Radio`
+  - `Switch`
+  - `Tabs` (Primary/Secondary)
+  - `Navigation Drawer` (Standard/Modal)
+  - `App Bar` (Top/Bottom)
+  - `List`
+  - `Chip` (Assist, Filter, Input, Suggestion)
+  - `Badge`
+  - `Progress Indicator` (Linear/Circular)
+  - `Tooltip`
+  - `Bottom Sheet`
+  - `Menu`
+- **Design Tokens**: Full Material 3 design token system (Colors, Typography, Elevation, Shape, Motion).
+- **TypeScript Support**: Complete TypeScript rewrite with comprehensive type definitions.
+- **Build System**: Migrated to Vite building for optimized ESM and CJS output.
 
-## [3.0.0] - TBD
+### Changed
 
-Initial public release.
+- **Breaking Change**: Project structure completely reorganized.
+- **Breaking Change**: Entry point changed from `index.js` to `dist/index.js`.
+- **Breaking Change**: `createMaterialConfig` helper replaced with `tailwind-material-3` plugin.
+- **Breaking Change**: Updated `tailwind-material-colors` peer dependency to latest version.
 
----
+### Removed
 
-## Version Guidelines
+- **Old JavaScript Files**: Replaced with TypeScript equivalents.
+- **Legacy Components**: Refactored Button and Card to adhere strictly to M3 specs.
 
-- **Major** (X.0.0): Breaking changes
-- **Minor** (0.X.0): New features, backwards compatible
-- **Patch** (0.0.X): Bug fixes, backwards compatible
+## [2.1.0] - 2025-01-15
 
-## Publishing Process
+### Added
 
-1. Update version in `package.json`
-2. Update this CHANGELOG with changes
-3. Commit: `git commit -am "Release v3.0.0"`
-4. Tag: `git tag v3.0.0`
-5. Push: `git push && git push --tags`
-6. Create GitHub Release (triggers automatic npm publish)
+- Initial Button component implementation.
+- Basic Card component implementation.
+
+### Changed
+
+- Updated Tailwind CSS dependency.
+
+## [1.0.0] - 2024-11-01
+
+### Added
+
+- Initial release.
