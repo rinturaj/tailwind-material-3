@@ -3,7 +3,9 @@ import { defaultTypographyTokens } from './tokens/typography';
 import { lightElevation } from './tokens/elevation';
 import { defaultShapeTokens } from './tokens/shape';
 import { easingTokens, durationTokens } from './tokens/motion';
+
 import lightTheme from './theme/light';
+import { buttonPlugin, cardPlugin, textFieldPlugin, dialogPlugin, snackbarPlugin } from './components';
 
 /**
  * Material Design 3 Tailwind Configuration
@@ -218,7 +220,12 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
       },
     },
     plugins: [
-      // Component plugins will be added here
+      // Component plugins
+      buttonPlugin,
+      cardPlugin,
+      textFieldPlugin,
+      dialogPlugin,
+      snackbarPlugin,
     ],
     ...userConfig,
   };
