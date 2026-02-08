@@ -13,7 +13,17 @@ import {
   snackbarPlugin,
   checkboxPlugin,
   radioPlugin,
-  switchPlugin
+  switchPlugin,
+  tabsPlugin,
+  navigationDrawerPlugin,
+  appBarPlugin,
+  listPlugin,
+  chipPlugin,
+  badgePlugin,
+  progressPlugin,
+  tooltipPlugin,
+  bottomSheetPlugin,
+  menuPlugin
 } from './components';
 
 /**
@@ -238,6 +248,16 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
       checkboxPlugin,
       radioPlugin,
       switchPlugin,
+      tabsPlugin,
+      navigationDrawerPlugin,
+      appBarPlugin,
+      listPlugin,
+      chipPlugin,
+      badgePlugin,
+      progressPlugin,
+      tooltipPlugin,
+      bottomSheetPlugin,
+      menuPlugin,
     ],
     ...userConfig,
   };

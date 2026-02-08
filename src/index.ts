@@ -21,7 +21,17 @@ export {
     snackbarPlugin,
     checkboxPlugin,
     radioPlugin,
-    switchPlugin
+    switchPlugin,
+    tabsPlugin,
+    navigationDrawerPlugin,
+    appBarPlugin,
+    listPlugin,
+    chipPlugin,
+    badgePlugin,
+    progressPlugin,
+    tooltipPlugin,
+    bottomSheetPlugin,
+    menuPlugin
 } from './components';
 export * from './components/button/types';
 export * from './components/button/styles';
@@ -34,3 +44,13 @@ export * from './components/snackbar/types';
 export * from './components/checkbox/types';
 export * from './components/radio/types';
 export * from './components/switch/types';
+export * from './components/tabs/types';
+export * from './components/navigation-drawer/types';
+export * from './components/app-bar/types';
+export * from './components/list/types';
+export * from './components/chip/types';
+export * from './components/badge/types';
+export * from './components/progress/types';
+export * from './components/tooltip/types';
+export * from './components/bottom-sheet/types';
+export * from './components/menu/types';
