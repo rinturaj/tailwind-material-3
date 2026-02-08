@@ -19,11 +19,11 @@ import motionTokens from './motion';
  * Complete Material 3 design system tokens
  */
 export const tokens = {
-    color: colorTokens,
-    typography: typographyTokens,
-    elevation: elevationTokens,
-    shape: shapeTokens,
-    motion: motionTokens,
+  color: colorTokens,
+  typography: typographyTokens,
+  elevation: elevationTokens,
+  shape: shapeTokens,
+  motion: motionTokens,
 };
 
 export default tokens;
