@@ -9,7 +9,7 @@ import plugin from 'tailwindcss/plugin';
  * Text Field plugin for Tailwind CSS
  * Adds Material 3 text field component classes
  */
-export const textFieldPlugin = plugin(function ({ addComponents }) {
+export const textFieldPlugin: ReturnType<typeof plugin> = plugin(function ({ addComponents }) {
   const textFields = {
     // Container base
     '.md-text-field': {

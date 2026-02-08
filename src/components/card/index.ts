@@ -9,7 +9,7 @@ import plugin from 'tailwindcss/plugin';
  * Card plugin for Tailwind CSS
  * Adds Material 3 card component classes
  */
-export const cardPlugin = plugin(function ({ addComponents }) {
+export const cardPlugin: ReturnType<typeof plugin> = plugin(function ({ addComponents }) {
   const cards = {
     '.md-card': {
       '@apply block rounded-md-md transition-all duration-md-short-2 ease-md-standard relative overflow-hidden':

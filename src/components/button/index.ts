@@ -9,7 +9,7 @@ import plugin from 'tailwindcss/plugin';
  * Button plugin for Tailwind CSS
  * Adds Material 3 button component classes
  */
-export const buttonPlugin = plugin(function ({ addComponents }) {
+export const buttonPlugin: ReturnType<typeof plugin> = plugin(function ({ addComponents }) {
   // Standard Buttons
   const buttons = {
     '.md-btn': {
