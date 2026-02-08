@@ -5,7 +5,16 @@ import { defaultShapeTokens } from './tokens/shape';
 import { easingTokens, durationTokens } from './tokens/motion';
 
 import lightTheme from './theme/light';
-import { buttonPlugin, cardPlugin, textFieldPlugin, dialogPlugin, snackbarPlugin } from './components';
+import {
+  buttonPlugin,
+  cardPlugin,
+  textFieldPlugin,
+  dialogPlugin,
+  snackbarPlugin,
+  checkboxPlugin,
+  radioPlugin,
+  switchPlugin
+} from './components';
 
 /**
  * Material Design 3 Tailwind Configuration
@@ -226,6 +235,9 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
       textFieldPlugin,
       dialogPlugin,
       snackbarPlugin,
+      checkboxPlugin,
+      radioPlugin,
+      switchPlugin,
     ],
     ...userConfig,
   };

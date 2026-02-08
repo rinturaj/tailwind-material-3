@@ -13,7 +13,16 @@ export * from './theme';
 export { createMaterialConfig, createMaterialConfig as default } from './tailwind.config';
 
 // Export component plugins
-export { buttonPlugin, cardPlugin, textFieldPlugin, dialogPlugin, snackbarPlugin } from './components';
+export {
+    buttonPlugin,
+    cardPlugin,
+    textFieldPlugin,
+    dialogPlugin,
+    snackbarPlugin,
+    checkboxPlugin,
+    radioPlugin,
+    switchPlugin
+} from './components';
 export * from './components/button/types';
 export * from './components/button/styles';
 export * from './components/card/types';
@@ -22,3 +31,6 @@ export * from './components/text-field/types';
 export * from './components/text-field/styles';
 export * from './components/dialog/types';
 export * from './components/snackbar/types';
+export * from './components/checkbox/types';
+export * from './components/radio/types';
+export * from './components/switch/types';
