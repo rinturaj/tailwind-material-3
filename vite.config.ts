@@ -17,7 +17,7 @@ export default defineConfig({
                 'tailwindcss/plugin',
                 'lodash',
                 'deepmerge',
-                'tailwind-material-colors',
+
             ],
             output: {
                 // Provide global variables for UMD build

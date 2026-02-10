@@ -81,11 +81,10 @@
   },
   "homepage": "https://github.com/rinturaj/tailwind-material-3#readme",
   "peerDependencies": {
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^4.0.0"
   },
   "dependencies": {
-    "deepmerge": "^4.3.1",
-    "tailwind-material-colors": "^3.2.3"
+    "deepmerge": "^4.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
