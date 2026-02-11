@@ -65,7 +65,7 @@ export const textFieldStyles: TextFieldStyles = {
     'outline-none',
     'border-none',
     'text-md-on-surface',
-    'font-body-large',
+    'text-md-body-large',
     'pt-6',
     'pb-2',
     'placeholder:text-md-on-surface-variant',
@@ -79,7 +79,7 @@ export const textFieldStyles: TextFieldStyles = {
     'left-4',
     'top-4',
     'text-md-on-surface-variant',
-    'font-body-large',
+    'text-md-body-large',
     'pointer-events-none',
     'transition-all',
     'duration-md-short-2',
@@ -88,13 +88,13 @@ export const textFieldStyles: TextFieldStyles = {
   ].join(' '),
 
   // Floating label state
-  labelFloating: ['top-2', 'text-label-small', 'scale-75', 'text-md-primary'].join(' '),
+  labelFloating: ['top-2', 'text-md-label-small', 'scale-75', 'text-md-primary'].join(' '),
 
   // Helper text styles
-  helperText: ['mt-1', 'px-4', 'text-md-on-surface-variant', 'font-body-small'].join(' '),
+  helperText: ['mt-1', 'px-4', 'text-md-on-surface-variant', 'text-md-body-small'].join(' '),
 
   // Error text styles
-  errorText: ['mt-1', 'px-4', 'text-md-error', 'font-body-small'].join(' '),
+  errorText: ['mt-1', 'px-4', 'text-md-error', 'text-md-body-small'].join(' '),
 };
 
 /**

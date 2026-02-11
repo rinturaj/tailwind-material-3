@@ -48,7 +48,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
         },
         fontSize: {
           // Display
-          'display-large': [
+          'md-display-large': [
             defaultTypographyTokens.displayLarge.fontSize,
             {
               lineHeight: defaultTypographyTokens.displayLarge.lineHeight,
@@ -56,7 +56,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.displayLarge.fontWeight.toString(),
             },
           ],
-          'display-medium': [
+          'md-display-medium': [
             defaultTypographyTokens.displayMedium.fontSize,
             {
               lineHeight: defaultTypographyTokens.displayMedium.lineHeight,
@@ -64,7 +64,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.displayMedium.fontWeight.toString(),
             },
           ],
-          'display-small': [
+          'md-display-small': [
             defaultTypographyTokens.displaySmall.fontSize,
             {
               lineHeight: defaultTypographyTokens.displaySmall.lineHeight,
@@ -73,7 +73,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
             },
           ],
           // Headline
-          'headline-large': [
+          'md-headline-large': [
             defaultTypographyTokens.headlineLarge.fontSize,
             {
               lineHeight: defaultTypographyTokens.headlineLarge.lineHeight,
@@ -81,7 +81,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.headlineLarge.fontWeight.toString(),
             },
           ],
-          'headline-medium': [
+          'md-headline-medium': [
             defaultTypographyTokens.headlineMedium.fontSize,
             {
               lineHeight: defaultTypographyTokens.headlineMedium.lineHeight,
@@ -89,7 +89,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.headlineMedium.fontWeight.toString(),
             },
           ],
-          'headline-small': [
+          'md-headline-small': [
             defaultTypographyTokens.headlineSmall.fontSize,
             {
               lineHeight: defaultTypographyTokens.headlineSmall.lineHeight,
@@ -98,7 +98,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
             },
           ],
           // Title
-          'title-large': [
+          'md-title-large': [
             defaultTypographyTokens.titleLarge.fontSize,
             {
               lineHeight: defaultTypographyTokens.titleLarge.lineHeight,
@@ -106,7 +106,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.titleLarge.fontWeight.toString(),
             },
           ],
-          'title-medium': [
+          'md-title-medium': [
             defaultTypographyTokens.titleMedium.fontSize,
             {
               lineHeight: defaultTypographyTokens.titleMedium.lineHeight,
@@ -114,7 +114,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.titleMedium.fontWeight.toString(),
             },
           ],
-          'title-small': [
+          'md-title-small': [
             defaultTypographyTokens.titleSmall.fontSize,
             {
               lineHeight: defaultTypographyTokens.titleSmall.lineHeight,
@@ -123,7 +123,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
             },
           ],
           // Body
-          'body-large': [
+          'md-body-large': [
             defaultTypographyTokens.bodyLarge.fontSize,
             {
               lineHeight: defaultTypographyTokens.bodyLarge.lineHeight,
@@ -131,7 +131,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.bodyLarge.fontWeight.toString(),
             },
           ],
-          'body-medium': [
+          'md-body-medium': [
             defaultTypographyTokens.bodyMedium.fontSize,
             {
               lineHeight: defaultTypographyTokens.bodyMedium.lineHeight,
@@ -139,7 +139,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.bodyMedium.fontWeight.toString(),
             },
           ],
-          'body-small': [
+          'md-body-small': [
             defaultTypographyTokens.bodySmall.fontSize,
             {
               lineHeight: defaultTypographyTokens.bodySmall.lineHeight,
@@ -148,7 +148,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
             },
           ],
           // Label
-          'label-large': [
+          'md-label-large': [
             defaultTypographyTokens.labelLarge.fontSize,
             {
               lineHeight: defaultTypographyTokens.labelLarge.lineHeight,
@@ -156,7 +156,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.labelLarge.fontWeight.toString(),
             },
           ],
-          'label-medium': [
+          'md-label-medium': [
             defaultTypographyTokens.labelMedium.fontSize,
             {
               lineHeight: defaultTypographyTokens.labelMedium.lineHeight,
@@ -164,7 +164,7 @@ export function createMaterialConfig(userConfig: Partial<Config> = {}): Config {
               fontWeight: defaultTypographyTokens.labelMedium.fontWeight.toString(),
             },
           ],
-          'label-small': [
+          'md-label-small': [
             defaultTypographyTokens.labelSmall.fontSize,
             {
               lineHeight: defaultTypographyTokens.labelSmall.lineHeight,

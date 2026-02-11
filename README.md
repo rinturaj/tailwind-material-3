@@ -56,6 +56,8 @@ npm install tailwind-material-3 tailwind-material-colors
 
 ### 2. Configuration
 
+**Note for Tailwind CSS v4:** This library uses a JavaScript configuration wrapper to inject Material 3 design tokens and plugins. Even if you are using Tailwind v4, you **must** use a `tailwind.config.js` (or `.ts`) file for this library to work correctly.
+
 Add the plugin to your `tailwind.config.js` (or `tailwind.config.ts`) file:
 
 ```typescript
@@ -71,6 +73,16 @@ export default createMaterialConfig({
   // You can still add other plugins here
   plugins: [],
 });
+
+// Or if you prefer the standard plugin approach (recommended for Tailwind v4 compatibility):
+import { tailwindMaterial3 } from 'tailwind-material-3';
+
+export default {
+  content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
+  plugins: [
+    tailwindMaterial3
+  ]
+};
 ```
 
 ### 3. Usage

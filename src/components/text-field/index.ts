@@ -34,26 +34,26 @@ export const textFieldPlugin: ReturnType<typeof plugin> = plugin(function ({ add
     // Input element
     '.md-text-field-input': {
       '@apply w-full h-full bg-transparent outline-none border-none': {},
-      '@apply text-md-on-surface font-body-large pt-6 pb-2 px-4': {},
+      '@apply text-md-on-surface text-md-body-large pt-6 pb-2 px-4': {},
       '@apply placeholder:text-md-on-surface-variant placeholder:opacity-0': {},
       '@apply focus:placeholder:opacity-100': {},
     },
 
     // Label
     '.md-text-field-label': {
-      '@apply absolute left-4 top-4 text-md-on-surface-variant font-body-large': {},
+      '@apply absolute left-4 top-4 text-md-on-surface-variant text-md-body-large': {},
       '@apply pointer-events-none transition-all duration-md-short-2 ease-md-standard origin-left':
         {},
     },
 
     // Floating label state
     '.md-text-field-label-floating': {
-      '@apply top-2 text-label-small scale-75 text-md-primary': {},
+      '@apply top-2 text-md-label-small scale-75 text-md-primary': {},
     },
 
     // Helper text
     '.md-text-field-helper': {
-      '@apply mt-1 px-4 text-md-on-surface-variant font-body-small': {},
+      '@apply mt-1 px-4 text-md-on-surface-variant text-md-body-small': {},
     },
 
     // Error state
@@ -62,7 +62,7 @@ export const textFieldPlugin: ReturnType<typeof plugin> = plugin(function ({ add
     },
 
     '.md-text-field-error-text': {
-      '@apply mt-1 px-4 text-md-error font-body-small': {},
+      '@apply mt-1 px-4 text-md-error text-md-body-small': {},
     },
 
     // Disabled state

@@ -11,6 +11,7 @@ export * from './theme';
 
 // Export Tailwind configuration
 export { createMaterialConfig, createMaterialConfig as default } from './tailwind.config';
+export { tailwindMaterial3 } from './plugin';
 
 // Export component plugins
 export {

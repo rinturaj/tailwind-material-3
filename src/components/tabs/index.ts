@@ -59,7 +59,11 @@ export const tabsPlugin: ReturnType<typeof plugin> = plugin(function ({ addCompo
 
         // Scrollable tabs container (optional utility)
         '.md-tabs-scrollable': {
-            '@apply overflow-x-auto overflow-y-hidden no-scrollbar': {}, // Requires no-scrollbar utility or custom CSS
+            '@apply overflow-x-auto overflow-y-hidden': {},
+            'scrollbar-width': 'none',
+            '&::-webkit-scrollbar': {
+                display: 'none',
+            },
             '.md-tab': {
                 '@apply flex-none min-w-[90px]': {},
             }

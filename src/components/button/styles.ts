@@ -16,7 +16,7 @@ export const buttonStyles: ButtonStyles = {
     'items-center',
     'justify-center',
     'gap-2',
-    'font-label-large',
+    'text-md-label-large',
     'font-medium',
     'transition-all',
     'duration-md-short-2',
@@ -107,9 +107,9 @@ export const buttonStyles: ButtonStyles = {
 
   // Size variants
   sizes: {
-    small: 'h-8 px-4 text-label-small',
-    medium: 'h-10 px-6 text-label-large',
-    large: 'h-12 px-8 text-label-large',
+    small: 'h-8 px-4 text-md-label-small',
+    medium: 'h-10 px-6 text-md-label-large',
+    large: 'h-12 px-8 text-md-label-large',
   },
 
   // Interactive states
@@ -132,7 +132,7 @@ export const fabStyles: FABStyles = {
     'inline-flex',
     'items-center',
     'justify-center',
-    'font-label-large',
+    'text-md-label-large',
     'font-medium',
     'transition-all',
     'duration-md-short-2',

@@ -51,15 +51,24 @@ export const progressPlugin: ReturnType<typeof plugin> = plugin(function ({ addC
             }
         },
 
-        // Keyframes for linear indeterminate (simplified)
-        '@keyframes md-linear-indeterminate': {
-            '0%': { transform: 'translateX(-100%) scaleX(0.2)' },
-            '50%': { transform: 'translateX(0%) scaleX(0.5)' },
-            '100%': { transform: 'translateX(100%) scaleX(0.2)' },
-        }
     };
 
     addComponents(progress);
+}, {
+    theme: {
+        extend: {
+            keyframes: {
+                'md-linear-indeterminate': {
+                    '0%': { left: '-100%', width: '100%' },
+                    '50%': { left: '30%', width: '40%' },
+                    '100%': { left: '100%', width: '10%' },
+                }
+            },
+            animation: {
+                'md-linear-indeterminate': 'md-linear-indeterminate 2s infinite linear',
+            }
+        }
+    }
 });
 
 export default progressPlugin;
