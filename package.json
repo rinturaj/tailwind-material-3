@@ -1,6 +1,6 @@
 {
   "name": "tailwind-material-3",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "A production-ready Tailwind CSS component library that strictly follows Google Material Design 3 specifications. Built with TypeScript, design tokens, and accessibility best practices.",
   "type": "module",
   "main": "./dist/index.cjs",
